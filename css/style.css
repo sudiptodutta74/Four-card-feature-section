@@ -1,0 +1,127 @@
+body{
+    background-color: hsl(0, 0%, 98%);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(234, 12%, 34%);
+}
+
+.row, .col-lg-4{
+    margin: 0;
+    padding: 0;
+}
+
+/* heading-section */
+
+.heading-1{
+    font-weight: 200;
+    margin-top: 50px;
+    font-size: 24px;
+}
+
+.heading-2{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.heading-paragraph{
+    max-width: 33%;
+    margin: 0 auto;
+    color: hsl(229, 6%, 66%);
+    font-weight: 300;
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+
+/* Features */
+
+#features-section{
+    padding: 0% 10%;
+}
+
+.features-box{
+    background-color: #fff;
+    text-align: left;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 95%;
+    box-shadow: 1px 1px 17px hsl(229, 6%, 82%);
+    margin: 0 5% 30px;
+}
+
+.box1{
+    position: relative;
+    top: 20%;
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.box2{
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+.box3{
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.box4{
+    position: relative;
+    top: 20%;
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+.features-title{
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.features-paragraph{
+    color: hsl(229, 6%, 66%);
+    font-weight: 300;
+    font-size: 12px;
+    margin-bottom: 35px;
+}
+
+.features-img{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+@media (max-width: 1080px){
+    .heading-1{
+        font-size: 32px;
+        margin-top: 60px;
+    }
+
+    .heading-2{
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+
+    .heading-paragraph{
+        max-width: 60%;
+        font-size: 15px;
+    }
+
+    .features-title{
+        font-size: 32px;
+    }
+
+    .features-paragraph{
+        font-size: 15px;
+    }
+
+    .box1, .box4{
+        position: static;
+    }
+}
+
+
+@media (max-width: 350px){
+    .heading-1.heading-2.features-title{
+        font-size: 19.2px;
+    }
+
+    .heading-paragraph, .features-paragraph{
+        font-size: 12px;
+    }
+}
